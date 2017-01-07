@@ -7,8 +7,20 @@ module.exports = {
   	if (arr.length === 0) {
   		return [];
   	}
- 	minMaxArray.push(arr[0]);
- 	minMaxArray.push(arr[1]);
+
+  	var maxNumber = Number.MIN_VALUE;
+	var minNumber = Number.MAX_VALUE;
+	for (var i=0; i<arr.length; i++) {
+		if (arr[i] > maxNumber) {
+			maxNumber = arr[i];
+		}
+		if (arr[i] < minNumber) {
+			minNumber = arr[i];
+		}
+	}
+
+ 	minMaxArray.push(minNumber);
+ 	minMaxArray.push(maxNumber);
 	return minMaxArray;
   }
 }

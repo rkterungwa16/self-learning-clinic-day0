@@ -13,7 +13,7 @@ describe('Find Minimum and Maximum', function() {
 	it('Should return an array' , function() {
 		expect(myApp.findMinMax([])).to.be.an('array');
 	})
-  
+
   it('Should expect an empty array to return empty', function() {
     expect(myApp.findMinMax([])).to.be.empty;
   })
@@ -27,6 +27,6 @@ describe('Find Minimum and Maximum', function() {
   })
 
   it('should return [1,4] for [1, 2, 3 , 4]', function () {
-    expect(findMinMax([1, 2, 3, 4])).toEqual([1, 4]);
+    expect(myApp.findMinMax([1, 2, 3, 4])).to.eql([1, 4]);
   });
 })
