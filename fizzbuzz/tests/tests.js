@@ -21,4 +21,8 @@ describe('fizz Buzz test', function() {
     expect(myApp.fizzBuzz(5)).to.equal('Buzz');
   });
 
+  it("should return FizzBuzz for 15", function() {
+    expect(fizzBuzz(15)).to.equal('FizzBuzz');
+  });
+
 })
