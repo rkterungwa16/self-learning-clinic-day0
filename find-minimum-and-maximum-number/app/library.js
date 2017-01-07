@@ -1,5 +1,8 @@
-var findMinMax = function (arr) {
-	
-}
+'use strict'
 
-module.exports = findMinMax;
+module.exports = {
+ 
+  findMinMax: function (arr) {
+ 	
+  }
+}
