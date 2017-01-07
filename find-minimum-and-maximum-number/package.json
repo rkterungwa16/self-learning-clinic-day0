@@ -1,0 +1,21 @@
+{
+  "name": "find-minimum-and-maximum-number",
+  "version": "1.0.0",
+  "description": "Determines the maximum and minimum values in an array",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rkterungwa16"
+  },
+  "author": "Richard Kombol",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.5.0"
+  }
+}
