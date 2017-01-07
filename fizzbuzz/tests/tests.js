@@ -22,7 +22,13 @@ describe('fizz Buzz test', function() {
   });
 
   it("should return FizzBuzz for 15", function() {
-    expect(fizzBuzz(15)).to.equal('FizzBuzz');
+    expect(myApp.fizzBuzz(15)).to.equal('FizzBuzz');
   });
+
+  it("should return 'FizzBuzz' for 45", function() {
+    expect(myApp.fizzBuzz(45)).to.equal('FizzBuzz');
+  });
+
+
 
 })
