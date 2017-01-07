@@ -8,9 +8,9 @@ var myApp = require('../app/library.js');
 
 
 
-describe('Find Minimum and Maximum', function() {
-  it('Should return an array' , function() {
-    expect(myApp.fizzBuzz(4)).to.be.an('Number');
+describe('fizzBuzz', function() {
+  it('Should a string' , function() {
+    expect(myApp.fizzBuzz(4)).to.be.an('String');
   }) 
 
 })
