@@ -18,6 +18,10 @@ module.exports = {
 			minNumber = arr[i];
 		}
 	}
+	if (maxNumber === minNumber) {
+		minMaxArray.push(minNumber);
+		return minMaxArray;
+	}
 
  	minMaxArray.push(minNumber);
  	minMaxArray.push(maxNumber);
