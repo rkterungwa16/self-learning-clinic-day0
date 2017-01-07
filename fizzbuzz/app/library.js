@@ -13,7 +13,9 @@ module.exports = {
       return 'Buzz';
    }
 
-   
+   else {
+      return number;
+   }
  }
 
 }

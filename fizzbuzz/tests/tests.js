@@ -29,6 +29,16 @@ describe('fizz Buzz test', function() {
     expect(myApp.fizzBuzz(45)).to.equal('FizzBuzz');
   });
 
+  it("should return 'FizzBuzz' for 90", function() {
+    expect(myApp.fizzBuzz(90)).to.equal('FizzBuzz');
+  });
 
+  it("should return Fizz for 63", function() {
+    expect(myApp.fizzBuzz(63)).to.equal('Fizz');
+  });
+
+  it("should return 7 since its indivisible by 3 and 5", function() {
+    expect(myApp.fizzBuzz(7)).to.equal(7);
+  });
 
 })
