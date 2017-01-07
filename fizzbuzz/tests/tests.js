@@ -17,8 +17,8 @@ describe('fizz Buzz test', function() {
     expect(myApp.fizzBuzz('a')).to.not.equal('string');
   })
 
-  it("should return 'Fizz' for number divisible by 3", function() {
-    expect(myApp.fizzBuzz(5)).to.be.a('Buzz');
+  it("should return 'Fizz' for number divisible by 5", function() {
+    expect(myApp.fizzBuzz(5)).to.equal('Buzz');
   });
 
 })
