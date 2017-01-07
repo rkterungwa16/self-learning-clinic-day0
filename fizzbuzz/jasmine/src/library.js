@@ -1,0 +1,4 @@
+
+fizzBuzz: function (number) {
+   
+ }
