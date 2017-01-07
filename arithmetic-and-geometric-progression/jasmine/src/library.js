@@ -11,6 +11,10 @@ function aritGeo(arr) {
          return 'Geometric';
       }
 
+      else {
+         return -1;
+      }
+
    }
 
 }
