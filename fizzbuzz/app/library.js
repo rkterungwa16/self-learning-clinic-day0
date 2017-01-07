@@ -3,7 +3,7 @@
 module.exports = {
  
  fizzBuzz: function (number) {
-   return 'fizz';
+   return 'Fizz';
  }
 
 }
